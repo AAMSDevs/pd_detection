@@ -45,3 +45,6 @@ end
 fclose(fileID);
 
 fprintf('CSV file saved successfully at: %s\n', csvFile);
+% The code converts the Labels file to zeros and ones, where:
+% PD    = 1  (Partial Discharge)
+% NonPD = 0  (Non-Partial Discharge)
